@@ -78,7 +78,7 @@ function App() {
   };
 
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center gap-6 px-4 bg-linear-to-b from-rose-100 via-pink-50 to-white">
+    <main className="min-h-screen flex flex-col items-center justify-center gap-3 bg-linear-to-b from-rose-100 via-pink-50 to-white">
       <h1 className="text-3xl font-bold text-center text-pink-900">
         Will you be my valentine?
       </h1>
@@ -99,8 +99,8 @@ function App() {
       </div>
 
       <p
-        className={`mt-4 text-lg font-medium text-center ${
-          mode === "sad" ? "text-purple-950" : "text-pink-600"
+        className={`mt-2 text-lg font-medium text-center ${
+          mode === "sad" ? "text-purple-600" : "text-pink-600"
         } animate-fade-in`}
       >
         {currentReaction().text}
