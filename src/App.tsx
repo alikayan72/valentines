@@ -107,24 +107,24 @@ function App() {
       </p>
 
       {mode === "happy" ? (
-        <ul className="mt-4 w-full max-w-md rounded-2xl bg-white/80 backdrop-blur shadow-xl shadow-pink-200/50 p-6 space-y-5 text-pink-900 animate-fade-in text-center">
-          <li className="flex flex-col items-center gap-1">
-            <span className="text-2xl">📅</span>
-            <p className="font-semibold">Date & Time</p>
+        <ul className="mt-3 w-full max-w-4xl rounded-2xl bg-white/80 backdrop-blur shadow-xl shadow-pink-200/50 p-6 grid grid-cols-1 sm:grid-cols-3 gap-6 text-pink-900 animate-fade-in text-center">
+          <li className="flex flex-col items-center gap-2">
+            <span className="text-3xl">📅</span>
+            <p className="font-semibold text-lg">Date & Time</p>
             <p className="text-sm opacity-80">02 / 14 / 2026 @ 01:00 PM</p>
           </li>
 
-          <li className="flex flex-col items-center gap-1">
-            <span className="text-2xl">📍</span>
-            <p className="font-semibold">Location</p>
+          <li className="flex flex-col items-center gap-2">
+            <span className="text-3xl">📍</span>
+            <p className="font-semibold text-lg">Location</p>
             <p className="text-sm opacity-80">
               Secret — clues will reveal it ✨
             </p>
           </li>
 
-          <li className="flex flex-col items-center gap-1">
-            <span className="text-2xl">👗</span>
-            <p className="font-semibold">Attire</p>
+          <li className="flex flex-col items-center gap-2">
+            <span className="text-3xl">👗</span>
+            <p className="font-semibold text-lg">Attire</p>
             <p className="text-sm opacity-80">
               Follow the clues — you’ll need to walk around in style 💃
             </p>
