@@ -27,7 +27,7 @@ const sadReactions: Reaction[] = [
 
 const greetingReaction: Reaction = {
   image: greeting,
-  text: "What say you to my humble ask? Tu meri welntin?",
+  text: "What say you to my humble ask?",
 };
 
 const happyReaction: Reaction = {
