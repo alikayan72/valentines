@@ -32,7 +32,7 @@ const greetingReaction: Reaction = {
 
 const happyReaction: Reaction = {
   image: happy,
-  text: "Get ready for an exciting valentines day. Don't expect to be cozy cozy like bimbimatchi 💖",
+  text: "Get ready for an adventerous valentines day. Don't expect to be cozy cozy like bimbimatchi 💖",
 };
 
 function App() {
@@ -118,7 +118,7 @@ function App() {
             <span className="text-3xl">📍</span>
             <p className="font-semibold text-lg">Location</p>
             <p className="text-sm opacity-80">
-              Secret — clues will reveal it ✨
+              Thr Barnes Foundation ✨
             </p>
           </li>
 
@@ -126,7 +126,7 @@ function App() {
             <span className="text-3xl">👗</span>
             <p className="font-semibold text-lg">Attire</p>
             <p className="text-sm opacity-80">
-              Follow the clues — you’ll need to walk around in style 💃
+              Stylish and mobile like a spy thriller 💃
             </p>
           </li>
         </ul>
